@@ -1,0 +1,577 @@
+*{
+    margin: 4px;
+}
+#header{
+   display: flex;
+   justify-content: space-between;
+   background-color:white;
+   
+
+}
+.heading{
+   color:black;
+   
+   cursor: pointer;
+   font-size: 25px;
+   margin-left: 40px;
+}
+.TTT{
+    float: left;
+    color:white;
+    font-size: 30px;
+    border: 5px;
+    background-color: rgb(0, 119, 255);
+    border-radius: 50px;
+    font-weight: 1;
+    width: 30px;
+    height: 30px;
+    padding: 15px;
+    
+}
+.TTT a{
+    text-decoration: none;
+    color: white;
+}
+.logo{
+    float: right;
+}
+
+
+.nav{
+    color:gray;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 2vh;
+    margin: 9px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+    
+}
+.nav li{
+
+    margin-left: 70px;
+    list-style: none ;
+    cursor: pointer;
+}
+.nav li:hover{
+    
+    color:black;
+    padding: 6px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-bottom: solid 2px black;
+
+   
+    
+    
+}
+#secondhead{
+    display: flex;
+   justify-content: space-between;
+  
+}
+.heading2{
+font-size: 27px;
+margin: 20vh;
+font-family: Arial, Helvetica, sans-serif;
+color:rgba(0, 0, 0, 0.815);    
+
+
+}
+p{
+    font-size: 27px;
+    color: gray;
+
+    
+}
+
+.heading2 button{
+    font-size: 30px;
+    width: 15vw;
+    height: 7vh;
+    background-color: rgba(43, 100, 224, 0.728);
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
+    border-style: none;
+    cursor: wait;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.heading2 button:hover{
+    background-color: rgb(205, 18, 124);
+    color: white ;
+    transition: all 1s;
+    font-size: 35px;
+   
+    
+    
+}
+.thirdhead{
+
+}
+
+.heading3{
+    font-size: 30px;
+    margin-left: 90vh;
+    margin-top: 10vh;
+}
+p{
+    text-align: center;
+}
+.box{
+    width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+  
+  
+}
+.box1{
+    height: 55vh;
+    width:50vh;  
+    box-shadow:0px 0px 30px 0 gray;
+}
+
+.box1 img{
+  height: 35vh;
+  width: 49vh;
+}
+
+.text h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+.box2{
+    height: 55vh;
+    width:50vh; 
+    box-shadow:0px 0px 30px 0 gray;
+}
+
+.box2 img{
+    height: 35vh;
+    width: 49vh;
+}
+
+.box3{
+    height: 55vh;
+    width:50vh;
+    border: 2px solid black;
+    border: none;
+    box-shadow:0px 0px 30px 0 gray;
+}
+
+.box3 img{
+    height: 35vh;
+    width: 49vh;
+}
+
+
+  /* second box */
+.secondbox{
+display: flex;
+justify-content: space-evenly;
+}
+
+
+.box4{
+    height: 55vh;
+    width:50vh; 
+    box-shadow:0px 0px 30px 0 gray;  
+}
+
+
+.box5{
+    height: 55vh;
+    width:50vh;   
+    box-shadow:0px 0px 30px 0 gray;
+}
+
+
+.box6{
+    height: 55vh;
+    width:50vh;  
+    box-shadow:0px 0px 30px 0 gray;
+}
+
+/* only for button */
+
+.lrn button{
+    color:rgba(34, 136, 220, 0.975);
+    margin-left: 43%;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 20px;
+    border: 2px solid rgb(0, 119, 255);
+    border-radius: 30px;
+    width: 30vh;
+    cursor: pointer;
+    
+}
+.lrn button:hover{
+    background-color:rgb(230, 115, 151);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: white;
+    border-style: none;
+    
+    transition: all 1s;
+   
+   
+
+    
+   
+
+    
+    
+    
+
+}
+
+
+
+                                                          /* new section */
+
+    #forthhead{
+        height:90vh;
+        width:100%;
+        display: flex;
+    }
+
+    .para2{
+     font-size: 30px;
+     margin-left: 150px;
+     margin-top: 80px;
+     text-align: left;
+    }
+    .lrnn button{
+        color: rgb(0, 140, 255);
+        font-size: 25px;
+        text-align: center;
+        border-radius: 10px;
+        height: 50px;
+        width: 30vh;
+        margin-left: 100px;
+        cursor: pointer;
+        height: 7vh;
+        
+    }
+    .lrnn button:hover{
+        background-color: rgb(255, 192, 192);
+        color: red;
+        transition: all 1s;
+        font-size: 30px;
+        border-style: none;
+        width: 20vw;
+        margin-left: 50px;
+    }
+            /* new section start */
+
+
+ #main2{
+ height: 100vh;
+ width:90%;
+ margin: 0 auto;
+ display: flex;
+}
+       
+
+.box7{
+    height:95%;
+    width:50%;
+}
+.box7 h1{
+    font-size: 50px;
+    margin-top: 60px;
+    margin-left: 60px;
+}
+
+hr{
+    height: 2px;
+    width: 20%;
+    color:black;
+    margin-left: 100px;
+}
+.box7 p{
+    margin-right:30vh ;
+    font-size: 30px;
+}
+
+.btn1 button{
+         padding:30px;
+         border-radius:20px;
+         float:left;
+         margin: 0% auto;
+         margin-left: 100px;
+         font-family: Arial;
+         font-size: 30px;
+         background-color:rgb(136, 209, 255);
+         width: 40vh;
+         border-style: none;
+         cursor: pointer;
+}
+.btn1 button:hover{
+    background-color: rgb(239, 136, 153);
+    color: white;
+    font-size: 40px;
+    transition: all 1s;
+
+}
+.box8{
+    height:95%;
+    width:50%;
+    background-image: url(g.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+
+#bluebox{
+    height:60vh;
+    width: 90%;
+    background-color: rgb(0, 140, 255);
+    border-radius: 80px;
+    margin: 0% auto;
+    margin-top: 30vh;
+}
+
+.customars h1{
+    text-align: center;
+    color: white ;
+    font-size: 40px;
+    padding: 20px;
+    
+   
+}
+
+.pic{
+    height:35vh;
+    width: 40vh;
+    background-color: white;
+    margin: 50px;
+    position:absolute;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 3vh;
+    margin-left: 60px;
+     background-image: url(essa.jpeg);
+     background-position: center;
+     background-size: cover;
+}
+
+.name{
+    height:25vh;
+    width: 40vh;
+    color: white;
+    margin: 0% auto;
+     position: absolute;
+     margin-left: 47vh;
+     margin-top: 70px;
+}
+.name h1{
+    margin-top: 90px;
+}
+.para3 p{
+    width: 40%;
+    height: 40vh;
+    position:absolute;
+    margin-left: 97vh;
+    margin-top: 70px;
+    color: white;
+}
+
+
+                  /* new section :start */
+#main4{
+
+}
+
+.check h1{
+    font-size: 50px;
+    text-align: center;
+    margin-top:10%;
+
+
+}
+
+.threebox{
+display: flex;
+justify-content:space-evenly;
+
+
+}
+.threebox label:hover{
+    transition: all 1s;
+    /* background-color: black; */
+    color:black;
+    font-size: 40px;
+    cursor: pointer;
+}
+.boxa{
+    height: 70vh;
+    width:25%;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow:0px 0px 30px 0 gray;
+
+    /* background-image: url(i.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:40vh;
+    border-radius: 20px;
+     */
+
+}
+.boxa label{
+    font-size: 30px;
+    color: rgb(0, 174, 255);
+    margin: 0 auto; 
+}
+
+
+.boxb{
+    height:70vh;
+    width:25%;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow:0px 0px 30px 0 gray;
+
+    /* background-image: url(j.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:40vh;
+   
+     */
+
+}
+.boxb label{
+    font-size: 30px;
+    margin: 0 auto; 
+    color: rgb(0, 174, 255);
+}
+
+.boxc{
+    height: 70vh;
+    width:25%;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow:0px 0px 30px 0 gray;
+    /* background-image: url(l.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:40vh;
+    border-radius: 20px;
+     */
+    
+
+}
+
+.boxc label{
+    font-size: 30px;
+    color: rgb(0, 174, 255);
+    margin: 0 auto; 
+}
+.viewall button{
+    color: rgb(0, 174, 255);
+    font-size: 30px;
+    margin-top: 150px;
+    margin-left: 50pc;
+    font-family: none;
+    border-radius: 10px;
+    
+    width: 30vh;
+    height: 7vh;
+    background-color: transparent;
+    border-color: rgb(0, 174, 255);
+    transition: all;
+}
+.viewall button:hover{
+    border-radius: none;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    transition-duration: 1s;
+    font-size: 50px;
+    
+
+}
+.lastblue{
+    height: 60vh;
+    width: 100%;
+    background-color: rgba(0, 81, 255, 0.566);
+    margin: 0% auto;
+    margin-top: 30vh;
+    display: flex;
+    
+    
+
+}
+.TTTT{
+    float: left;
+    color:blue;
+    font-size: 50px;
+    background-color:white;
+    border-radius: 90px;
+    
+    width:  40px;
+    height: 40px;
+    padding: 39px;
+    margin-top: 70px;
+    margin-left: 70px;
+    cursor: pointer;
+}
+.TTTT a{
+    font-family:system-ui;
+    
+}
+.logoo h1{
+    color: white;
+    padding: 100px;
+    font-size: 50px;
+    
+}
+.logoo p{
+    color:white;
+    margin-right: 120vh;
+}
+.logoo{
+    color: white;
+    font-size: smaller;
+     
+}
+.lastlist{
+    height: 40vh;
+    width: 50%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px;
+    position: absolute;
+    margin-left: 90vh;
+    margin-top: 130px;  
+    
+}
+.company{
+cursor: pointer;    
+}
+.religion{
+    cursor: pointer; 
+}
+.help{
+    cursor: pointer; 
+}
+footer{
+    background-color:rgb(0, 0, 0);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium';
+    cursor: pointer;
+}
